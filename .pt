@@ -1,0 +1,7 @@
+model = torch.hub.load(
+    "bryandlee/animegan2-pytorch:main",
+    "generator",
+    pretrained="face_paint_512_v2",
+    device="cpu"
+)
+model.eval()
